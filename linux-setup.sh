@@ -1,10 +1,9 @@
 #!/bin/bash
 
-cd ~
 ## ubuntu
-apt update
-apt upgrade -y
-apt-get install build-essential curl file git
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get -y install build-essential curl file git
 
 echo 'Ubuntu setup is complete'
 ## brew
