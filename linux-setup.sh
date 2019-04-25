@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ## ubuntu
-apt update
-apt upgrade
-apt install build-essential curl file git
+suod apt update
+sudo apt upgrade
+sudo apt install build-essential curl file git
 
 echo 'Ubuntu setup is complete'
 
@@ -22,7 +22,5 @@ echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 ##install git, az-cli and node and node/tolls
 
 ## or everyting could be in one line line brew install gcc node etc
-brew install gcc 
-brew install git
-brew install azure-cli
-brew install node
+brew install gcc git azure-cli node
+echo "setup is complete"
