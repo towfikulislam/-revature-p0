@@ -1,15 +1,15 @@
 #!/bin/bash
 
 ## ubuntu
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get -y install build-essential curl file git
+apt-get update
+apt-get upgrade
+apt-get -y install build-essential curl file git
 
 echo 'Ubuntu setup is complete'
+
 ## brew
 ## brew/script link
 
-if [ -z $(which brew) ]; then
 ## echo -ne '\n' | -this could be used so i dont have to hit enter to continue 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
@@ -26,8 +26,3 @@ brew install gcc
 brew install git
 brew install azure-cli
 brew install node
-
-
-echo "Tool installation is complete"
-
-exit 0
