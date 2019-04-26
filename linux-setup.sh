@@ -2,7 +2,7 @@
 
 apt update
 apt upgrade
-sudo apt install build-essential curl file git
+apt install build-essential curl file git
 
 echo "Ubuntu setup is complete"
 
